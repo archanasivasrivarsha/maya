@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int X, Y;
     scanf("%d %d", &X, &Y);
 
     if (X >= 2 * Y)
-        printf("YES
-");
+        printf("YES");
     else
-        printf("NO
-");
+        printf("NO");
 
     return 0;
 }
+

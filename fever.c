@@ -5,12 +5,15 @@ int main()
     int x;
     scanf("%d", &x);
 
-    if (x > 98) {
+    if (x > 98)
+    {
         printf("YES");
-    } else
+    }
+    else
      {
         printf("NO");
     }
 
     return 0;
+
 
